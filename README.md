@@ -15,7 +15,12 @@
 - [x] useNotification
 - [x] useAxios
 
-## hook을 사용하는 이유
+## 이 외에도 심층적으로 알아야 할 hooks
+
+- useContext
+- usereducer
+- useCallback
+- useMemo
 
 ### 리액트를 사용하는데 불편한 2가지
 
