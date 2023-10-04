@@ -1,4 +1,4 @@
-# useClick, useHover
+# useClick
 
 ## [event click을 mouseenter로 변경하면 useHover]
 
@@ -12,42 +12,40 @@
 
 - `useEffect`에서 return한 함수는 `componentWillUnmount` 때 호출된다. (`useEffect`에서 return한 함수를 `cleanup function`이라고 부른다.)
 
-
 ```js
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect } from 'react';
 
 const useClick = (onClick) => {
   const element = useRef();
 
   useEffect(() => {
-    if (typeof onClick !== "function") {
+    if (typeof onClick !== 'function') {
       return;
     }
     if (element.current) {
-      element.current.addEventListener("click", onClick);
+      element.current.addEventListener('click', onClick);
     }
     return () => {
       if (element.current) {
-        console.log("hi");
-        element.current.removeEventListener("click", onClick);
+        console.log('hi');
+        element.current.removeEventListener('click', onClick);
       }
     };
   }, []);
 
-  return typeof onClick !== "function" ? undefined : element;
+  return typeof onClick !== 'function' ? undefined : element;
 };
 
 const App = () => {
-  const sayHello = () => console.log("say hello");
+  const sayHello = () => console.log('say hello');
   const title = useClick(sayHello);
 
   return (
-    <div className="App">
+    <div className='App'>
       <h1 ref={title}>Hi</h1>
     </div>
   );
 };
 
 export default App;
-
 ```
