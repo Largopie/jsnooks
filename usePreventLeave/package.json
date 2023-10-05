@@ -1,0 +1,32 @@
+{
+  "name": "@jsnooks/use-prevent-leave",
+  "version": "1.0.0",
+  "description": "React Hook to prompt the user for confirmation before leaving the page. Useful when changes haven't been saved.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Largopie/jsnooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "preventleave",
+    "usepreventleave"
+  ],
+  "author": "Song Jae Seok <jae990320@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Largopie/jsnooks/issues"
+  },
+  "homepage": "https://github.com/Largopie/jsnooks#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "js-tokens": "^4.0.0",
+    "loose-envify": "^1.4.0",
+    "scheduler": "^0.23.0"
+  },
+  "devDependencies": {}
+}
