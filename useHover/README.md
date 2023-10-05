@@ -25,7 +25,7 @@ export const useHover = (onHover) => {
 
 const App = () => {
   const sayHello = () => console.log('say hello');
-  const title = useClick(sayHello);
+  const title = useHover(sayHello);
 
   return (
     <div className='App'>
