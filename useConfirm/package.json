@@ -1,0 +1,22 @@
+{
+  "name": "@jsnooks/use-confirm",
+  "version": "1.0.0",
+  "description": "React Hook to prompt a confirmation before executing a function",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Largopie/jsnooks.git"
+  },
+  "keywords": [
+    "confirm",
+    "react",
+    "hooks",
+    "useconfirm"
+  ],
+  "author": "Song Jae Seok <jae990320@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Largopie/jsnooks/issues"
+  },
+  "homepage": "https://github.com/Largopie/jsnooks#readme"
+}
