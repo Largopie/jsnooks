@@ -1,0 +1,37 @@
+{
+  "name": "@jsnooks/use-before-leave",
+  "version": "1.0.1",
+  "description": "React Hook to execute a function when the mouse leaves the page. Useful to show a popup or for analytics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Largopie/jsnooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "beforeleave",
+    "usebeforeleave"
+  ],
+  "author": "Song Jae Seok <jae990320@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Largopie/jsnooks/issues"
+  },
+  "homepage": "https://github.com/Largopie/jsnooks#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "js-tokens": "^4.0.0",
+    "loose-envify": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "scheduler": "^0.23.0"
+  },
+  "devDependencies": {}
+}
