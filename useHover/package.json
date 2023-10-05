@@ -1,6 +1,6 @@
 {
   "name": "@jsnooks/use-hover",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Hook to detect a hover on an any React Element",
   "main": "index.js",
   "repository": {
